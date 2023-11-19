@@ -1,0 +1,59 @@
+.leftSide{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  padding:0px 10px;
+  background-color: rgba(237, 237, 237, 0.388);
+  border: 1px solid #737373;
+  border-radius: 10px;
+  height: calc(100vh - 110px);
+  margin: 15px;
+  overflow:scroll;
+   &::-webkit-scrollbar {
+      display: none;
+    }
+  .items{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 13px 0px;
+    .item{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      svg{
+        font-size: 25px;
+      }
+      
+      span{
+          font-size: 15px;
+      }
+  }
+  p{
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  .signUp{
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 8px;
+    width: fit-content;
+    svg{
+      color:red;
+      font-size: 30px;
+      font-weight: 500;
+    }
+    button{
+      margin-top: 5px;
+      border: none;
+      background-color:transparent;
+      font-size: 20px;
+    }
+  }
+  }
+  
+
+}
